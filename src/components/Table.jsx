@@ -22,6 +22,7 @@ const Table = () => {
           <td>Frontend</td>
           <td>Jane Doe</td>
           <td>+998956585566</td>
+          <td><i className="fa-solid fa-trash text-danger"></i></td>
         </tr>
         <tr>
           <td>1</td>
@@ -30,6 +31,7 @@ const Table = () => {
           <td>Frontend</td>
           <td>Jane Doe</td>
           <td>+998956585566</td>
+          <td><i className="fa-solid fa-trash text-danger"></i></td>
         </tr>
       </tbody>
     </table>
