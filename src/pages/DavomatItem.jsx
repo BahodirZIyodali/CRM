@@ -1,5 +1,6 @@
 import React from 'react'
-// davomat ichidagi bitta page
+// Davomat page ichidagi birorta guruh tanlanganda chiqadigan page
+
 const DavomatItem = () => {
   return (
     <div>DavomatItem</div>

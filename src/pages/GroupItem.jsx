@@ -1,5 +1,5 @@
 import React from 'react'
-// group ichidagi bitta page
+// Groups page ichidagi birorta guruh tanlanganda chiqadigan page
 
 const GroupItem = () => {
   return (
