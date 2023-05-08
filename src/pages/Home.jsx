@@ -1,7 +1,7 @@
 import React from 'react'
 import HomeCard from '../components/HomeCard'
 import Sidebar from '../components/Sidebar'
-// import { Bar } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 // import { Chart } from 'chart.js/auto';
 import Navbar from '../components/Navbar';
 
