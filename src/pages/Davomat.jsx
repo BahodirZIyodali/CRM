@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from "../components/Sidebar";
 import CardLesson from "../components/CardLesson";
+import Navbar from "../components/Navbar";
 
 
 const Davomat = () => {
@@ -8,7 +9,7 @@ const Davomat = () => {
     <div className="d-flex">
       <Sidebar />
       <div className="sd-right w-100">
-        <div className="nav">bla bla</div>
+        <Navbar/>
         <div className="davomat pt-4 ps-5 pe-5">
           <div className="d-flex justify-content-between pb-4">
             <h2 className="dv-hedding fw-bold fs-2">
