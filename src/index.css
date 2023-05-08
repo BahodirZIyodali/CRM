@@ -1,4 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Sidebar */
+
 .sidebar{
     width: 17%;
     min-height: 100vh;
@@ -30,4 +37,37 @@
     align-content: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,1fr);
+}
+.davomat{
+    background: #F0F2FA;
+}
+.davomat input{
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+.dv-hedding{
+    color: #0061F7;
+}
+.dv-search{
+  width: 40% !important;
+}
+.dv-card{
+    width: 32%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    
+}
+.dv-card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background:  #C4C4C4;
+    box-shadow: 0px 4px 15px rgba(47, 73, 209, 0.3);
+}
+.card-p{
+    color:#001062;
+}
+.dv-card-header{
+    background: #2F49D1;
+    border-radius: 16px 16px 0px 0px;   
 }
