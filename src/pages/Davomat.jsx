@@ -3,7 +3,6 @@ import Sidebar from "../components/Sidebar";
 import CardLesson from "../components/CardLesson";
 import Navbar from "../components/Navbar";
 
-
 const Davomat = () => {
   return (
     <div className="d-flex">

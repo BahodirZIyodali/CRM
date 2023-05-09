@@ -6,11 +6,11 @@ const CardLesson = () => {
       <div className="p-2 text-center text-light dv-card-header">
         <h3>Matematika</h3>
       </div>
-      <div className=" pt-2  ps-2 pe-2 pb-5 ">
-        <div className="d-flex pb-4 gap-2">
+      <div className=" pt-2  ps-3 pe-3 pb-5 ">
+        <div className="d-flex pb-4  justify-content-between align-items-center">
           <img src="/user.jpg" alt="user img" />
           <div>
-            <div className="d-flex justify-content-between ">
+            <div className="d-flex justify-content-between">
               <h5 className="m-0 fs-5 fw-bold card-p">O'qituvchi:</h5>
               <span>
                 <p className="m-0 text-end fs-6 fw-semibold">Maxkamova</p>
