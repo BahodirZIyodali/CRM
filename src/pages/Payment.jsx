@@ -9,7 +9,7 @@ const Payment = () => {
     <div className="d-flex">
       <Sidebar />
       <div className="sd-right w-100">
-        <Navbar />
+        <Navbar title="To'lovlar"/>
         <div className="container">
           <h1 className="dv-hedding">To’lov qilish</h1>
           <div className="row">

@@ -8,7 +8,7 @@ const Davomat = () => {
     <div className="d-flex">
       <Sidebar />
       <div className="sd-right w-100">
-        <Navbar/>
+        <Navbar title="Davomat"/>
         <div className="davomat pt-4 ps-5 pe-5">
           <div className="d-flex justify-content-between pb-4">
             <h2 className="dv-hedding fw-bold fs-2">
