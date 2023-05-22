@@ -1,6 +1,5 @@
 import Table from "../components/Table";
 import React from "react";
-import CardLesson from "./../components/CardLesson";
 import Navbar from "./../components/Navbar";
 import Sidebar from "./../components/Sidebar";
 
@@ -99,43 +98,7 @@ const Payment = () => {
               />
             </div>
             <div>
-              <table className="table table-hover">
-                <thead className="bg-primary text-white">
-                  <tr>
-                    <th>N^</th>
-                    <th>O'quvchi ismi</th>
-                    <th>Telefon nomer</th>
-                    <th>Yo'nalish</th>
-                    <th>O’qituvchisi</th>
-                    <th>To’lov vaqti</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td>John Doe</td>
-                    <td>+998949813606</td>
-                    <td>Frontend</td>
-                    <td>O’qituvchi (F.I.SH)</td>
-                    <td>06.02.2022</td>
-                    <td>
-                      <i className="fa-solid fa-trash text-danger"></i>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>John Doe</td>
-                    <td>+998949813606</td>
-                    <td>Matematika</td>
-                    <td>O’qituvchi (F.I.SH)</td>
-                    <td>06.02.2022</td>
-                    <td>
-                      <i className="fa-solid fa-trash text-danger"></i>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+              <Table/>
             </div>
           </div>
         </div>

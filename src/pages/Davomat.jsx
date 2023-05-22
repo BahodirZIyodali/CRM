@@ -21,12 +21,12 @@ const Davomat = () => {
             />
           </div>
           <div className="d-flex flex-wrap justify-content-between">
-            <CardLesson />
-            <CardLesson />
-            <CardLesson />
-            <CardLesson />
-            <CardLesson />
-            <CardLesson />
+            <CardLesson courseName="Matematika"/>
+            <CardLesson courseName="Ingliz tili"/>
+            <CardLesson courseName="Biologiya"/>
+            <CardLesson courseName="Kimyo"/>
+            <CardLesson courseName="Tarix"/>
+            <CardLesson courseName="Ona tili"/>
           </div>
         </div>
       </div>
