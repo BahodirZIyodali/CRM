@@ -8,7 +8,7 @@ const CardLesson = () => {
       </div>
       <div className=" pt-2  ps-3 pe-3 pb-5 ">
         <div className="d-flex pb-4  justify-content-between align-items-center">
-          <img src="/user.jpg" alt="user img" />
+          <img style={{objectFit:"cover"}} src="/user.jpg" alt="user img" />
           <div>
             <div className="d-flex justify-content-between">
               <h5 className="m-0 fs-5 fw-bold card-p">O'qituvchi:</h5>
